@@ -5,7 +5,7 @@
     <description>إذاعة مستقلة غير مرتبطة بأجندات سياسية أو دينية تعمل على تنمية المجتمع و طرح المفاهيم المعبرة عن الحالة السورية من خلال برامج ثقافية و علمية و ترفيهية و مجتمعية تحاكي الواقع و تسلط الضوء على القضايا السورية وتدعم تطلعات الشعب السوري في قضيته العادلة و ثورته المطالبة بالحرية و الكرامة نستمد هوانا من التراث السوري المُختلط بعبق ياسمين الشام لنظهر التميز السوري بكافة ألوانه و أشكاله و نسعى لأن نكون متميزين ببرامجنا و فقراتنا لنلامس كافة التوجهات الفكرية</description>
     <author email="info@Zihinler.com" href="http://www.zihinler.com">Zihinler</author>
 
-    <preference name="phonegap-version" value="cli-5.2.0" />
+    <preference name="phonegap-version" value="3.7.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
 
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
