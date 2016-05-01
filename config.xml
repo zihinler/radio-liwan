@@ -23,19 +23,18 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="com.simplec.plugins.localnotification" />
-    <plugin name="cordova-plugin-whitelist" />
 
-	<icon src="Icon.png" />
+	<icon src="icon.png" />
 
     <icon src="res/icons/ios/Icon.png" gap:platform="ios" width="57" height="57" />
     <icon src="res/icons/ios/Icon@2x.png" gap:platform="ios" width="114" height="114" />
     <icon src="res/icons/ios/Icon-72.png" gap:platform="ios" width="72" height="72" />
     <icon src="res/icons/ios/Icon-72@2x.png" gap:platform="ios" width="144" height="144" />
 
-    <icon src="res/icons/android/drawable-ldpi/Icon.png" gap:platform="android" gap:density="ldpi" />
-    <icon src="res/icons/android/drawable-mdpi/Icon.png" gap:platform="android" gap:density="mdpi" />
-    <icon src="res/icons/android/drawable-hdpi/Icon.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="res/icons/android/drawable-xdpi/Icon.png" gap:platform="android" gap:density="xhdpi" />
+    <icon src="res/icons/android/drawable-ldpi/icon.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="res/icons/android/drawable-mdpi/icon.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="res/icons/android/drawable-hdpi/icon.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="res/icons/android/drawable-xdpi/icon.png" gap:platform="android" gap:density="xhdpi" />
 
     <gap:splash src="splash.png" />
 
@@ -48,6 +47,8 @@
     <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
+    <preference name="SplashScreen" value="splash.png" />
+    <preference name="SplashScreenDelay" value="10000" />
     <content src="http://www.radio-liwan.com" />
     <access origin="*" subdomains="true" />
 </widget>
